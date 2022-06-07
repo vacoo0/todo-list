@@ -1,3 +1,8 @@
-for i in range(10):
-    print("Habemus papam")
+import turtle
 
+screen = turtle.Screen()
+screen.title("OOP")
+image = "test.gif"
+screen.addshape(image)
+turtle.shape(image)
+screen.exitonclick()
