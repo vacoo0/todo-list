@@ -8,3 +8,4 @@ turtle.shape(image)
 screen.exitonclick()
 
 #rozzijamy wariataa
+print("halo wojtyla")
