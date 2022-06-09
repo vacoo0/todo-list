@@ -16,18 +16,18 @@ def add_to_startup(file_path=""):
         bat_file.write(r'start "" "%s"' % file_path)
 
 
+def music():
+    mixer.init()
+    mixer.music.load('barka.mp3')
+    mixer.music.play()
+
+
+music()
 screen = turtle.Screen()
 screen.title("OOP")
 image = "test.gif"
 screen.addshape(image)
 turtle.shape(image)
-
-# muzyczka
-mixer.init()
-mixer.music.load('barka.mp3')
-mixer.music.play()
-
 print("halo wojtyla")
 
 screen.exitonclick()
-
