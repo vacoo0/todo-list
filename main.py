@@ -1,5 +1,10 @@
 import turtle
 import getpass
+import pygame
+from pygame.locals import *
+from pygame import mixer
+
+
 USER_NAME = getpass.getuser()
 
 
@@ -12,11 +17,18 @@ def add_to_startup(file_path=""):
         bat_file.write(r'start "" "%s"' % file_path)
 
 
+
 screen = turtle.Screen()
 screen.title("OOP")
 image = "test.gif"
 screen.addshape(image)
 turtle.shape(image)
+
+#muzyczka
+mixer.init()
+mixer.music.load('Music File/bensound-summer_wav_music.wav')
+mixer.music.play()
+
 screen.exitonclick()
 
 #rozzijamy wariataa
