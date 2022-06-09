@@ -8,3 +8,4 @@ turtle.shape(image)
 screen.exitonclick()
 
 #florian to jets zią i rybak
+#zmiana
