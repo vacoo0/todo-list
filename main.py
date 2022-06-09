@@ -24,6 +24,7 @@ image = "test.gif"
 screen.addshape(image)
 turtle.shape(image)
 
+
 #muzyczka
 mixer.init()
 mixer.music.load('Music File/bensound-summer_wav_music.wav')
@@ -33,3 +34,9 @@ screen.exitonclick()
 
 #rozzijamy wariataa
 print("halo wojtyla")
+
+screen.exitonclick()
+
+#florian to jets zią i rybak
+#zmiana
+
