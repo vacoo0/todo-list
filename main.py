@@ -24,15 +24,10 @@ turtle.shape(image)
 
 # muzyczka
 mixer.init()
-mixer.music.load('Music File/bensound-summer_wav_music.wav')
+mixer.music.load('barka.mp3')
 mixer.music.play()
 
-screen.exitonclick()
-
-# rozzijamy wariataa
 print("halo wojtyla")
 
 screen.exitonclick()
 
-# florian to jets zią i rybak
-# zmiana
