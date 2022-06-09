@@ -7,4 +7,4 @@ screen.addshape(image)
 turtle.shape(image)
 screen.exitonclick()
 
-#rozzijamy wariata
+#rozzijamy wariataa
